@@ -7,12 +7,12 @@
     <parent>
         <groupId>ma.s2m.payos</groupId>
         <artifactId>payos-parent</artifactId>
-        <version>1.2.0-RELEASE</version>
+        <version>1.2.1-RELEASE</version>
         <relativePath>../payos-parent/pom.xml</relativePath>
     </parent>
 
     <artifactId>session-service-redis</artifactId>
-    <version>1.0.0-RELEASE</version>
+    <version>1.1.0-RELEASE</version>
     <packaging>jar</packaging>
 
     <name>session-service-redis</name>
@@ -23,7 +23,7 @@
             <dependency>
                 <groupId>ma.s2m.payos</groupId>
                 <artifactId>payos-core-bom</artifactId>
-                <version>1.10.0-RELEASE</version>
+                <version>1.11.0-RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
